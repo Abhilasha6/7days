@@ -1,6 +1,7 @@
 fetchForecast = function () {
 	var endpoint =
-		"https://api.openweathermap.org/data/2.5/onecall?lat=38.7267&lon=-9.1403&exclude=current,hourly,minutely,alerts&units=metric&appid={API key}";
+		"https://api.openweathermap.org/data/2.5/onecall?lat=38.7267&lon=-9.1403&exclude=current,hourly,minutely,alerts&units=metric&appid={3b53f797f476526141c1d8473fa69d8e
+    }";
 	var forecastEl = document.getElementsByClassName("forecast");
 
 	fetch(endpoint)
